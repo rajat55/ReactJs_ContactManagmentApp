@@ -1,0 +1,55 @@
+
+body{
+    
+}
+input{
+    border: none;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    border-bottom: 1px solid rgb(255, 172, 47);
+    outline: none;
+}
+.P-img img{
+    width: 100px;
+    border-radius: 5px;
+}
+.delete-img img{
+    width: 50px;
+}
+.delete-img{
+    cursor: pointer;
+    display: flex;
+    
+    align-items: center;
+}
+.delete-img img:hover{
+    border: .5px solid burlywood;
+}
+.content{
+    background-color: blueviolet;
+    display: flex;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px whitesmoke;
+    justify-content: space-around;
+}
+.P-img{
+    display: flex;
+    align-items: center;
+    
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}

@@ -1,0 +1,14 @@
+
+.form-area{
+    background-color: aqua;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.form-area input{
+    margin: 10px;
+}
