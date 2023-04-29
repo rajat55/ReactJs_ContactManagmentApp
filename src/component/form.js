@@ -33,13 +33,14 @@ export default function FormR(props){
         setEmail(" ");
         setid(id+1);
         
+        
     }
 
 
 return(
 <>
 <div className='form-area'>
-    <input type="text" required placeholder='Contact  Name' value={name} onChange={setname}/>
+    <input type="text" min="6"required placeholder='Contact  Name' value={name} onChange={setname}/>
     <input type="email" required placeholder='Contact Email' value={email} onChange={setemail}/>
     <select name="Relation" className='mb-2' onChange={setrelation}>
     <option value="Friends">Friends</option>

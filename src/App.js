@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useEffect, useState} from 'react';
 import './App.css';
 import Navbar  from './component/navbar';
 import Form from './component/form';
@@ -15,15 +15,22 @@ import ContactList from './component/contactList';
 function App() {
   const list = []
   const [listn,setlist] = useState(list);
+  
+    
+
+ 
+
+
 
   const getdataFromFrom = (eprops) =>{
     let newList = [...listn,eprops];
       setlist(newList);
+      
         //console.log(newList);
   }
   const deleteContact = (dprops) =>{
     let newList = listn.filter((ele)=>{
-      if(ele.id == dprops)
+      if(ele.id === dprops)
       return false;
       else
       return true;
